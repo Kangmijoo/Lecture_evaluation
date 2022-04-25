@@ -22,7 +22,7 @@ public class EvaluationDAO {
 			pstmt.setString(2, evaluationDTO.getLectureName());
 			pstmt.setString(3, evaluationDTO.getProfessorName());
 			pstmt.setInt(4, evaluationDTO.getLectureYear());
-			pstmt.setString(5, evaluationDTO.getSamesterDivide());
+			pstmt.setString(5, evaluationDTO.getSemesterDivide());
 			pstmt.setString(6, evaluationDTO.getLectureDivide());
 			pstmt.setString(7, evaluationDTO.getEvaluationTitle());
 			pstmt.setString(8, evaluationDTO.getEvaluationContent());
